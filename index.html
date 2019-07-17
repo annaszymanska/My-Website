@@ -14,23 +14,65 @@
 </head>
 <body>
 	
-	<header>
-	<div class="container jumbotron">
-		
-		<div class="row">
-			<div class="col">
-				<h1>Anna Szymańska</h1>
-				<h2>Rysuję</h2>
+	<header>		
+		<div class="container-fluid jumbotron">
+			<div class="row">
+				<div class="col">
+					<h1>Anna Szymańska</h1>
+					<h2>Rysuję</h2>
+				</div>
+				<div class="col">
+					<img src="./assets/my-face.jpg" class="rounded-circle main-picture mx-auto d-block">
+				</div>
 			</div>
-			<div class="col">
-				<img src="./assets/my-face.jpg" class="rounded-circle main-picture mx-auto d-block">
-			</div>
-		</div>
-	</div>
+		</div>		
 	</header>
-	<nav class="navbar">
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<button class="navbar-toggler" type="button" data-target="#collapsibleNavbar" data-toggle="collapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="collapsibleNavbar" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">O mnie</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Album</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Oferta</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Kontakt</a>
+				</li>
+			</ul>		
+		</div>
 	</nav>
+	
 	<main>
+		<section id="AboutMe" class="jumbotron">
+			<h3>O mnie</h3>
+			<p>Mam na imię Anna, mam 30 lat, dwie wspaniałe córki i kocham rysować. Jest jeden warunek: rysuję tylko, kiedy mam dobre samopoczucie. Czuję, że to co przelewam na papier ma swoją energię i potem oddaje ją temu, kto na to patrzy. Dlatego tylko w dobrym nastroju i z pozytywną muzyką :) Czasem rysuję dla siebie, żeby dodać sobie otuchy, czasem rysuję dla innych ludzi. Każdy rysunek jest jeden. Skrojony na dany moment.</p>
+			<p>W planach mam zakup tabletu, który umożliwi mi rysowanie w formie cyfrowej. Będzie to łatwiejsze jeśli chodzi o wydruk. Jednak rysunek odręczny, niewydrukowany ma swoją specyfikę i takie też bardzo lubię i bardzo lubię nimi się dzielić :)</p>
+			<p>Kiedy rysuję dla kogoś obrazek powstaje sam. W jakiś sposób przychodzi pomysł i to rysuje się samo. Czasem przychodzi od razu a czasem czekam na niego nawet miesiąc. To musi być ten moment i ta chwila, żeby to było właśnie to o co chodzi.</p>
+		</section>
+		<section id="Album" class="jumbotron">
+			<h3>Album</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col"><img src="assets/pani_cebula.jpg" class="img_gallery"></div>
+					<div class="col"><img src="assets/%C5%9Bwit.jpg" class="img_gallery"></div>
+					<div class="col"><img src="assets/mama.jpg" class="img_gallery"></div>
+				</div>				
+			</div>
+		</section>
+		<section id="Offer">
+			<h3>Oferta</h3>
+		</section>
+		<section id="Contact">
+			<h3>Kontakt</h3>
+		</section>
 	</main>
 	<footer>
 	</footer>		
